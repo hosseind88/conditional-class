@@ -1,7 +1,7 @@
 {
   "name": "conditonal-class",
   "description": "A conditnal class builder util for using in web application development",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/hosseind88/conditional-class",
   "author": "Hossein Dindar (https://github.com/hosseind88)",
   "contributors": [
