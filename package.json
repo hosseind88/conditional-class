@@ -1,0 +1,31 @@
+{
+  "name": "conditonal-class",
+  "description": "A conditnal class builder util for using in web application development",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hosseind88/conditional-class",
+  "author": "Hossein Dindar (https://github.com/hosseind88)",
+  "contributors": [
+    "Hossein Dindar",
+  ],
+  "repository": "hosseind88/conditional-class",
+  "bugs": {
+    "url": "https://github.com/hosseind88/conditional-class/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "class",
+    "object",
+    "string",
+    "conditional"
+  ]
+}
