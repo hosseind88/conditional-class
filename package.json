@@ -5,7 +5,7 @@
   "homepage": "https://github.com/hosseind88/conditional-class",
   "author": "Hossein Dindar (https://github.com/hosseind88)",
   "contributors": [
-    "Hossein Dindar",
+    "Hossein Dindar"
   ],
   "repository": "hosseind88/conditional-class",
   "bugs": {
@@ -19,6 +19,10 @@
   "engines": {
     "node": ">=4"
   },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -27,5 +31,8 @@
     "object",
     "string",
     "conditional"
-  ]
+  ],
+  "dependencies": {
+    "chai": "^4.3.4"
+  }
 }
