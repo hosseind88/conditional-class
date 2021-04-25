@@ -14,5 +14,8 @@ describe('conditionalClass', function () {
             'another-class': false
         })).to.equal('some-class is-active');
         expect(conditionalClass()).to.equal('');
+        expect(conditionalClass(undefined, {
+            'is-active': true
+        })).to.equal('is-active');
     });
 });
