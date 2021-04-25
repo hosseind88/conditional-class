@@ -2,7 +2,7 @@
 
 > adds your conditional classnames to the base classname
 
-Please consider following this project's author, [Hossein Dindar](https://github.com/hosseind88), and consider starring the project to show your :heart: and support.
+Please follow me and consider starring the project to show your :heart: and support.
 
 ## Install
 
