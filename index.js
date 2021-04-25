@@ -16,7 +16,7 @@ module.exports = function conditionalClass(
   var result = baseClass || '';
   Object.keys(conditionalClassesObject || {}).forEach(function (key) {
     if (conditionalClassesObject[key]) {
-      result += " " + key;
+      result += (!baseClass ? "" : " ") + key;
     }
   });
   return result;
