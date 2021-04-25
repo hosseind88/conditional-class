@@ -1,2 +1,14 @@
+sudo: false
+os:
+  - linux
+  - osx
 language: node_js
-script: npm i && npm run test
+node_js:
+  - node
+  - '10'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - '4'
