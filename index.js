@@ -10,11 +10,11 @@
  * @param {object} conditionalClassesObject
  */
 module.exports = function conditionalClass(
-  baseClass = "",
-  conditionalClassesObject = {}
+  baseClass,
+  conditionalClassesObject
 ) {
-  var result = baseClass;
-  Object.keys(conditionalClassesObject).forEach(function (key) {
+  var result = baseClass || '';
+  Object.keys(conditionalClassesObject || {}).forEach(function (key) {
     if (conditionalClassesObject[key]) {
       result += " " + key;
     }
