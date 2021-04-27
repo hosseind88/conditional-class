@@ -1,7 +1,7 @@
 {
   "name": "conditional-class",
   "description": "A conditnal classname builder util",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "homepage": "https://github.com/hosseind88/conditional-class",
   "author": "Hossein Dindar (https://github.com/hosseind88)",
   "contributors": [
@@ -13,10 +13,10 @@
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "src/index.js"
   ],
   "types": "dist/index.d.ts",
-  "main": "index.js",
+  "main": "src/index.js",
   "engines": {
     "node": ">=4"
   },
