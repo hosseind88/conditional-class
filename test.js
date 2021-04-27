@@ -1,6 +1,6 @@
 require('mocha');
 var chai = require('chai');
-const conditionalClass = require('./');
+const conditionalClass = require('./src/index.js');
 var expect = chai.expect;
 
 describe('conditionalClass', function () {
