@@ -1,7 +1,7 @@
 {
   "name": "conditional-class",
   "description": "A conditnal classname builder util",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://github.com/hosseind88/conditional-class",
   "author": "Hossein Dindar (https://github.com/hosseind88)",
   "contributors": [
