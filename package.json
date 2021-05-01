@@ -19,13 +19,15 @@
   },
   "devDependencies": {
     "gulp-format-md": "^1.0.0",
-    "mocha": "^3.5.3",
     "typescript": "^4.2.4",
-    "chai": "^4.3.4"
+    "@types/jest": "^22.1.4",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "@types/node": "^9.4.6"
   },
   "scripts": {
     "build": "tsc",
-    "test": "mocha"
+    "test": "jest --config=jest.config.json"
   },
   "keywords": [
     "class",
