@@ -17,7 +17,7 @@ $ npm install --save conditional-class
 Works with strings or numbers.
 
 ```js
-const condionalClass = require('conditional-class');
+import { conditionalClass } from 'conditional-class';
 
 console.log(condionalClass('some-class')); //=> some-class
 console.log(condionalClass('some-class', { 'is-active': true })); //=> some-class is-active
