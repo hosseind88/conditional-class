@@ -5,20 +5,19 @@
  * Released under the MIT License.
  */
 
-/**
- * @param {string} baseClass
- * @param {object} conditionalClassesObject
- */
-module.exports = function conditionalClass(
-  baseClass,
-  conditionalClassesObject
+interface ClassObject {
+  [key: string]: boolean
+}
+
+export function conditionalClass(
+  baseClass = '',
+  conditionalClassesObject: ClassObject = {}
 ) {
-  var result = baseClass || '';
   Object.keys(conditionalClassesObject || {}).forEach(function (key) {
     if (conditionalClassesObject[key]) {
-      result += (!baseClass ? "" : " ") + key;
+      baseClass += (!baseClass ? "" : " ") + key;
     }
   });
-  return result;
+  return baseClass;
 };
 
