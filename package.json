@@ -12,11 +12,8 @@
     "url": "https://github.com/hosseind88/conditional-class/issues"
   },
   "license": "MIT",
-  "files": [
-    "src/index.js"
-  ],
   "types": "dist/index.d.ts",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "engines": {
     "node": ">=4"
   },
@@ -27,6 +24,7 @@
     "chai": "^4.3.4"
   },
   "scripts": {
+    "build": "tsc",
     "test": "mocha"
   },
   "keywords": [
