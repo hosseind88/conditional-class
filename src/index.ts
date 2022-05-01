@@ -10,14 +10,15 @@ interface ClassObject {
 }
 
 export function conditionalClass(
-  baseClass = '',
+  baseClass: string | string[] = '',
   conditionalClassesObject: ClassObject = {}
 ) {
+  let baseClassString = typeof baseClass === 'string' ? baseClass : baseClass.join(' ');
   Object.keys(conditionalClassesObject || {}).forEach(function (key) {
     if (conditionalClassesObject[key]) {
-      baseClass += (!baseClass ? "" : " ") + key;
+      baseClassString += (!baseClass ? "" : " ") + key;
     }
   });
-  return baseClass;
+  return baseClassString;
 };
 

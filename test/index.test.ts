@@ -20,5 +20,18 @@ describe("conditionalClass", function () {
         "is-active": true,
       })
     ).toEqual("is-active");
+    expect(
+      conditionalClass(['some-class', true ? 'some-other-class' : 'some-other-class-2'])
+    ).toEqual("some-class some-other-class");
+    expect(
+      conditionalClass(['some-class', true ? 'some-other-class' : 'some-other-class-2'], {
+        "is-active": true,
+      })
+    ).toEqual("some-class some-other-class is-active");
+    expect(
+      conditionalClass(['some-class', true && 'some-other-class'], {
+        "is-active": true,
+      })
+    ).toEqual("some-class some-other-class is-active");
   });
 });
