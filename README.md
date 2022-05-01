@@ -22,6 +22,7 @@ import { conditionalClass } from 'conditional-class';
 console.log(condionalClass('some-class')); //=> some-class
 console.log(condionalClass('some-class', { 'is-active': true })); //=> some-class is-active
 console.log(condionalClass(undefined, { 'is-active': true })); //=> is-active
+console.log(condionalClass(['class'], { 'is-active': true })); //=> class is-active
 ```
 
 ### License
